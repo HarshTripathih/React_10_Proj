@@ -6,6 +6,7 @@ import Surveyform from './components/SurveyForm/Surveyform';
 import Tribute from "./components/Tribute/Tribute";
 import Navbar from "./components/Navbar/Navbar";
 import Parallax from "./components/Parallax/Parallax";
+import Home from "./components/Home/Home";
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Router>
-        <Routes>        
+        <Routes>
+          <Route exact path="/" element={ <Home />} />    
           <Route path="/tribute" element={<Tribute />} />
           <Route path="/surveyform" element={<Surveyform />} />
           <Route path="/parallax" element={<Parallax />} />
