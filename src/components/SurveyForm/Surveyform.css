@@ -1,15 +1,16 @@
 
-        body{
-			background-color: #05c46b;
+        .section2{
+			background-color: #0091ff;
 			font-family: Verdana;
 			text-align: center;
 		}
 
-		form {
+		.section2 form {
 			background-color: #fff;
 			max-width: 500px;
 			margin: 50px auto;
 			padding: 30px 20px;
+			border-radius: 15px;
 			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 		}
 
@@ -46,7 +47,7 @@
 
 		
 		button {
-			background-color: #05c46b;
+			background-color: #0091ff;
 			border: 1px solid #777;
 			border-radius: 2px;
 			font-family: inherit;

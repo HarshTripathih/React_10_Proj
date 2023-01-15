@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-align: center;
+}
+.content{
+    height:100vh;
+}
+.text-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding:5px 15px;
+    transform:translate(-50%, -50%);
+    background:gray;
+    color:aliceblue;
+    border-radius: 20px;
+    font-size:50px;
+}

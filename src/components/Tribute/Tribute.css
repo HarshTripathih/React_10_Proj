@@ -2,24 +2,25 @@
     padding: 0px;
     margin:0px;
 }
-.body{
-    background-color: #00FA9A;
+.main{
+    background-image: url("C:\Users\Asus\Desktop\Placement_project_react\proj1\src\images\space.jpg");
     height: 230vh;
     
 }
 #title{
     text-align: center;
-    text-shadow: 5px 5px 10px white;
+    text-shadow: 5px 5px 10px lightblue;
     font-size: 7vh;
+    color:white;
 }
 #caption{
     font-size: 17px;
     font-family: Gill Sans;
-    color: black;
+    color: white;
 }
 div #tribute-data {
-    background-color: rgb(46, 139, 87, 0.25);
-    box-shadow: 20px 20px 20px #98FB98;
+    background-color: grey;
+    box-shadow: 20px 20px 20px lightblue;
     font-family: Georgia;
     padding: 25px 25px;
     margin: 11px;
