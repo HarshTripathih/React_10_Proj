@@ -7,6 +7,9 @@ import Tribute from "./components/Tribute/Tribute";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Parallaxpage from "./components/Parallax/Parallaxpage";
+import Restaurant from "./components/Restaurant/Restaurant";
+import Event from "./components/EventConfrence/Event";
+import Data from "./components/MusicPage/Data";
 
 
 
@@ -16,11 +19,13 @@ function App() {
       <Navbar/>
       <Router>
         <Routes>
-          <Route exact path="/" element={ <Home />} />    
+        <Route exact path="/" element={ <Home />} /> 
+          <Route path="/restaurant" element={<Restaurant/>} />     
           <Route path="/tribute" element={<Tribute />} />
           <Route path="/surveyform" element={<Surveyform />} />
           <Route path="/parallax" element={<Parallaxpage/>} />
-
+          <Route path="/event" element={<Event/>} /> 
+          <Route path="/musicdata" element={<Data/>} /> 
         </Routes>
       </Router>
     </div>

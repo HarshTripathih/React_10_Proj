@@ -11,6 +11,9 @@ function Navbar() {
                 <li><a href="/tribute">Tribute Page</a></li>
                 <li><a href="/surveyform">Survey Form</a></li>
                 <li><a href="/parallax">Parallax Page</a></li>
+                <li><a href="/restaurant">Restaurant Page</a></li>
+                <li><a href="/event">Event Confrence</a></li>
+                <li><a href="/musicdata">Music Page</a></li>
             </ul>
         </div>
     );
