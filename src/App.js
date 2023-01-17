@@ -10,6 +10,7 @@ import Parallaxpage from "./components/Parallax/Parallaxpage";
 import Restaurant from "./components/Restaurant/Restaurant";
 import Event from "./components/EventConfrence/Event";
 import Data from "./components/MusicPage/Data";
+import ImageGallary from "./components/ImageGallary/ImageGallary";
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/parallax" element={<Parallaxpage/>} />
           <Route path="/event" element={<Event/>} /> 
           <Route path="/musicdata" element={<Data/>} /> 
+          <Route path="/imgdata" element={<ImageGallary/>} /> 
         </Routes>
       </Router>
     </div>

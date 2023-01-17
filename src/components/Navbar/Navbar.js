@@ -14,6 +14,7 @@ function Navbar() {
                 <li><a href="/restaurant">Restaurant Page</a></li>
                 <li><a href="/event">Event Confrence</a></li>
                 <li><a href="/musicdata">Music Page</a></li>
+                <li><a href="/imgdata">Image Gallary</a></li>
             </ul>
         </div>
     );
